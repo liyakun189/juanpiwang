@@ -17,7 +17,434 @@
 						<a href="#" class="banner">
 							<!-- banner左上角的小图标 -->
 							<div class="top-jiaobiao">
-								<img src="img/top-jiaobiao.png">
+								<img src="../../img/top-jiaobiao.png">
+								<div class="text">
+									<p>低至</p>
+									<p>5.3折起</p>
+								</div>	
+							</div>
+							<!-- banner图片 -->
+							<img src="https://goods2.juancdn.com/goods/170829/3/9/59a511d8a9fcf8805f0cf961_750x360.jpg?imageMogr2/quality/88!/format/jpg"></span>
+						</a>
+						<!-- 每个小块下面的横排内容 -->
+						<div class="yinliu-box">
+							<!-- 每个小块下面的横排的商品列表 -->
+							<div class="yinliu-list">
+								<!-- 横排的商品列表里面的每一件商品的整体 -->
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170222/f/9/58ad2993151ad155048b45c9_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods5.juancdn.com/bao/170303/8/f/58b92f00db01d9435c8b4597_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods6.juancdn.com/bao/170220/a/0/58aa9d2e151ad15d728b45d4_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods6.juancdn.com/bao/170303/b/f/58b93990151ad1921a8b45f0_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170303/e/9/58b91128151ad10b598b457f_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
+								<!-- 横排商品列表最后面的查看更多 -->
+								<div class="yinliu-good go-more">
+									<a href="#" class="good-pic">
+										<img src="../../img/see-more.png" alt="查看更多">
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					
+					<li class="brand-home-group">
+						<!-- 每个小块上面的banner -->
+						<a href="#" class="banner">
+							<!-- banner左上角的小图标 -->
+							<div class="top-jiaobiao">
+								<img src="../../img/top-jiaobiao.png">
+								<div class="text">
+									<p>低至</p>
+									<p>5.3折起</p>
+								</div>	
+							</div>
+							<!-- banner图片 -->
+							<img src="https://goods6.juancdn.com/goods/170919/a/5/59c0f3188150a14292328f43_750x360.jpg?imageMogr2/quality/88!/format/jpg" alt="">
+							<span class="triangle"></span>
+						</a>
+						<!-- 每个小块下面的横排内容 -->
+						<div class="yinliu-box">
+							<!-- 每个小块下面的横排的商品列表 -->
+							<div class="yinliu-list">
+								<!-- 横排的商品列表里面的每一件商品的整体 -->
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods6.juancdn.com/bao/161216/a/e/5853abf5db01d9f9578b4622_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods7.juancdn.com/bao/170322/d/8/58d1fbcfa43d1f28d26d8dd2_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods1.juancdn.com/bao/161227/0/f/5861c3e2db01d9ea708b45e5_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods7.juancdn.com/bao/161227/d/3/5861c464db01d9ea708b45e8_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
+								<!-- 横排商品列表最后面的查看更多 -->
+								<div class="yinliu-good go-more">
+									<a href="#" class="good-pic">
+										<img src="../../img/see-more.png" alt="查看更多">
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="brand-home-group">
+						<!-- 每个小块上面的banner -->
+						<a href="#" class="banner">
+							<!-- banner左上角的小图标 -->
+							<div class="top-jiaobiao">
+								<img src="../../img/top-jiaobiao.png">
+								<div class="text">
+									<p>低至</p>
+									<p>5.3折起</p>
+								</div>	
+							</div>
+							<!-- banner图片 -->
+							<img src="https://goods1.juancdn.com/goods/170905/1/c/59ae0b4a8150a16af45b9019_750x360.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+							<span class="triangle"></span>
+						</a>
+						<!-- 每个小块下面的横排内容 -->
+						<div class="yinliu-box">
+							<!-- 每个小块下面的横排的商品列表 -->
+							<div class="yinliu-list">
+								<!-- 横排的商品列表里面的每一件商品的整体 -->
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods5.juancdn.com/bao/170224/9/3/58afff9c151ad1c4598b458c_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods3.juancdn.com/bao/170224/4/8/58b00e24151ad1a8058b4567_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods2.juancdn.com/bao/170224/3/6/58afeef4151ad1d3388b4573_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods2.juancdn.com/bao/161114/3/a/58294c1ddb01d910138b4635_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
+								<!-- 横排商品列表最后面的查看更多 -->
+								<div class="yinliu-good go-more">
+									<a href="#" class="good-pic">
+										<img src="../../img/see-more.png" alt="查看更多">
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="brand-home-group">
+						<!-- 每个小块上面的banner -->
+						<a href="#" class="banner">
+							<!-- banner左上角的小图标 -->
+							<div class="top-jiaobiao">
+								<img src="../../img/top-jiaobiao.png">
 								<div class="text">
 									<p>低至</p>
 									<p>5.3折起</p>
@@ -96,486 +523,61 @@
 										<div class="good-name">五色花瓣雕刻腮红 5#</div>
 									</a>
 								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
+                                <div class="yinliu-good">
+									<!-- 每件小商品的图片 -->
+									<a href="#" class="good-pic">
+										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
+									</a>
+									<!-- 每件小商品的描述 -->
+									<a href="#" class="good-detail">
+										<!-- 小商品的价格 -->
+										<div class="good-price">
+											<span class="price-new">￥51.3</span>
+											<span class="price-del">￥85</span>
+										</div>
+										<!-- 小商品的名称 -->
+										<div class="good-name">五色花瓣雕刻腮红 5#</div>
+									</a>
+								</div>
 								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
 								<!-- 横排商品列表最后面的查看更多 -->
 								<div class="yinliu-good go-more">
 									<a href="#" class="good-pic">
-										<img src="img/see-more.png" alt="查看更多">
+										<img src="../../img/see-more.png" alt="查看更多">
 									</a>
 								</div>
-							</div>
-						</div>
-					</li>
-					
-					
-					<li class="brand-home-group">
-						<!-- 每个小块上面的banner -->
-						<a href="#" class="banner">
-							<!-- banner左上角的小图标 -->
-							<div class="top-jiaobiao">
-								<img src="img/top-jiaobiao.png">
-								<div class="text">
-									<p>低至</p>
-									<p>5.3折起</p>
-								</div>	
-							</div>
-							<!-- banner图片 -->
-							<img src="https://goods3.juancdn.com/bao/170626/4/f/59506b8ca43d1f7454740b83_750x350.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
-						</a>
-						<!-- 每个小块下面的横排内容 -->
-						<div class="yinliu-box">
-							<!-- 每个小块下面的横排的商品列表 -->
-							<div class="yinliu-list">
-								<!-- 横排的商品列表里面的每一件商品的整体 -->
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
-								<!-- 横排商品列表最后面的查看更多 -->
-								<!-- <div class="yinliu-good go-more">
-									<a href="#" class="good-pic">
-										<img src="img/see-more.png" alt="查看更多">
-									</a>
-								</div> -->
-							</div>
-						</div>
-					</li>
-					<li class="brand-home-group">
-						<!-- 每个小块上面的banner -->
-						<a href="#" class="banner">
-							<!-- banner左上角的小图标 -->
-							<div class="top-jiaobiao">
-								<img src="img/top-jiaobiao.png">
-								<div class="text">
-									<p>低至</p>
-									<p>5.3折起</p>
-								</div>	
-							</div>
-							<!-- banner图片 -->
-							<img src="https://goods3.juancdn.com/bao/170626/4/f/59506b8ca43d1f7454740b83_750x350.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
-						</a>
-						<!-- 每个小块下面的横排内容 -->
-						<div class="yinliu-box">
-							<!-- 每个小块下面的横排的商品列表 -->
-							<div class="yinliu-list">
-								<!-- 横排的商品列表里面的每一件商品的整体 -->
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
-								<!-- 横排商品列表最后面的查看更多 -->
-								<!-- <div class="yinliu-good go-more">
-									<a href="#" class="good-pic">
-										<img src="img/see-more.png" alt="查看更多">
-									</a>
-								</div> -->
-							</div>
-						</div>
-					</li>
-					<li class="brand-home-group">
-						<!-- 每个小块上面的banner -->
-						<a href="#" class="banner">
-							<!-- banner左上角的小图标 -->
-							<div class="top-jiaobiao">
-								<img src="img/top-jiaobiao.png">
-								<div class="text">
-									<p>低至</p>
-									<p>5.3折起</p>
-								</div>	
-							</div>
-							<!-- banner图片 -->
-							<img src="https://goods3.juancdn.com/bao/170626/4/f/59506b8ca43d1f7454740b83_750x350.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
-						</a>
-						<!-- 每个小块下面的横排内容 -->
-						<div class="yinliu-box">
-							<!-- 每个小块下面的横排的商品列表 -->
-							<div class="yinliu-list">
-								<!-- 横排的商品列表里面的每一件商品的整体 -->
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<div class="yinliu-good">
-									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
-										<img src="https://goods8.juancdn.com/bao/170321/e/6/58d0f83da43d1f23030fda28_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt="五色花瓣雕刻腮红 5#">
-									</a>
-									<!-- 每件小商品的描述 -->
-									<a href="#" class="good-detail">
-										<!-- 小商品的价格 -->
-										<div class="good-price">
-											<span class="price-new">￥51.3</span>
-											<span class="price-del">￥85</span>
-										</div>
-										<!-- 小商品的名称 -->
-										<div class="good-name">五色花瓣雕刻腮红 5#</div>
-									</a>
-								</div>
-								<!-- 中间还有其他商品yinliu-good，暂时省略 -->
-								<!-- 横排商品列表最后面的查看更多 -->
-								<!-- <div class="yinliu-good go-more">
-									<a href="#" class="good-pic">
-										<img src="img/see-more.png" alt="查看更多">
-									</a>
-								</div> -->
 							</div>
 						</div>
 					</li>
@@ -610,14 +612,14 @@ export default {
 	height: 100%;
 }
 .app{
-	width: 15rem;
+	width: 16rem;
 	height: auto;
 	padding-bottom: 1rem;
 	
 }
 #head{
 	height: 1.76rem;
-	border-bottom: .6px solid #dedede;
+	border-bottom: .12px solid #dedede;
 }
 #head #t-index{
 	display: block;
@@ -625,7 +627,11 @@ export default {
 	line-height: 1.76rem;
 	text-align: center;
 	cursor: default;
-	color: #333;
+	color: #666;
+    font-size: 38px;
+}
+.goods-list{
+	border-bottom: 1.4rem solid #fff;
 }
 .brand-home-group{
 	border-bottom: .4rem solid #f9f9f9;
@@ -637,17 +643,17 @@ export default {
 	position: relative;
 }
 #goods .banner img{
-	width: 15rem;
+	width: 16rem;
 	height: 7.1rem;
 }
 /*小三角样式*/
 #goods .banner .triangle{
 	display: inline-block;
-	border: 10px solid transparent;
-	border-bottom: 10px solid #fff;
+	border: 15px solid transparent;
+	border-bottom: 15px solid #fff;
 	z-index: 10;
 	position: absolute;
-	bottom: 4px;
+	bottom: 0;
 	left: 47%;
 
 }
@@ -671,7 +677,7 @@ export default {
 	z-index: 10;
 }
 #goods .banner .top-jiaobiao .text p{
-	font-size: 12px;
+	font-size: 16px;
 	text-align: center;
 	height: .6rem;
 	line-height: .6rem;
@@ -680,38 +686,42 @@ export default {
 /*商品列表下面的横排商品*/
 .brand-home-group .yinliu-box{	
 	height: 6.5rem;
-	padding-top: .4rem;
-	padding-bottom: .8rem;
+	padding-top: .2rem;
+	padding-bottom: 1rem;
 	width: auto;
 	overflow-x: auto;
 	overflow-y: hidden;
 	white-space: nowrap;
 }
 .brand-home-group .yinliu-box .yinliu-list{
-	height: 6.5rem;
-	width: 34rem;
+	height: 6.8rem;
+	width: 34.5rem;
 }
 .yinliu-good{
 	float: left;
-	width: 3.6rem;
-	margin-left: .16rem;
+	width: 4rem;
+	margin-left: .3rem;
 	padding: 0;
 
 }
+.go-more{
+    margin-top: .4rem;
+}
 .yinliu-good .good-pic{
+    margin-top:.2rem; 
 	display: block;
-	width: 3.6rem;
-	height: 3.6rem;
+	width: 3.4rem;
+	height: 3.4rem;
 }
 .yinliu-good .good-pic img{
-	width: 3.6rem;
-	height: 3.6rem;
+	width: 3.4rem;
+	height: 3.4rem;
 }
 .yinliu-good .good-detail{
 	display: block;
-	width: 3.6rem;
+	width: 3.4rem;
 	height: 3rem;
-	font-size: 12px;
+	font-size: 24px;
 }
 .yinliu-good .good-detail .good-price{
 	margin-left: .5rem;
