@@ -6,6 +6,12 @@ import VueRouter from 'vue-router'
 // 全局安装路由 (让任何组件都可以使用路由)
 Vue.use(VueRouter);
 
+// 导入vue-resource 来处理网络请求（2.x不推荐使用这个）
+import resource from 'vue-resource'
+
+// 全局配置一下
+Vue.use(resource);
+
 // 分别导入5个组件
 import Home from '../pages/Home'
 import Choose from '../pages/Choose'

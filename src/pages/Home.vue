@@ -15,16 +15,7 @@
         <span class="user"><a href=""><img src="../../img/user.jpg" alt=""></a></span>
     </div>
     <nav class="nav">
-        <a href="">上新</a>
-        <a href="">女装</a>
-        <a href="">鞋包</a>
-        <a href="">母婴</a>
-        <a href="">数码</a>
-        <a href="">居家</a>
-        <a href="">男士</a>
-        <a href="">美妆</a>
-        <a href="">美食</a>
-        <a href="">精品配饰</a>
+         <a href="" v-for='(item,inex) in List' :key='item.id'>{{ item.title }}</a>
     </nav>
     <div class="banner">
         <img src='https://goods2.juancdn.com/jas/170818/3/d/5996dbed8150a12f501eecb1_1080x418.png?imageMogr2/thumbnail/750x290!/quality/80!/format/png'>
@@ -39,6 +30,15 @@
     <div class="kong"></div>
     <div class="style1">
         <div class="style1_left">
+            <div class="countTime">
+                <p>
+                    <span>00</span>
+                    <b>:</b>
+                    <span>57</span>
+                    <b>:</b>
+                    <span>45</span>
+                </p>
+            </div>
             <img src="https://goods2.juancdn.com/jas/170925/3/e/59c86d9f8150a1401a43bc5a_540x656.png?imageMogr2/quality/85!/format/png" alt="">
         </div>
         <div class="style1_right">
@@ -63,124 +63,24 @@
     </div>
     <section class="section">
         <ul>
-            <li>
-                <a href="" class="first"><img src="https://goods5.juancdn.com/goods/170921/8/2/59c32f188150a17654184628_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=webp" alt=""></a>
+            <li v-for="(item,index) in List2" :key='item.id'>
+                <a href="" class="first"><img :src= 'item.pic_url' /></a>
                 <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
+
+                    <!-- 如果有item.coupon执行 item.coupon.rules[0].aeBankInfo-->
+                    <div class="list_price" v-if="item.coupon">
+                        <span class="span_top">{{ item.coupon.rules[0].aeBankInfo }}</span>
                     </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods5.juancdn.com/goods/170921/8/2/59c32f188150a17654184628_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=webp" alt=""></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
+                    <!-- 否则的话执行 item.cprice/oprice-->
+                    <div class="list_price" v-else>
+                        <span class="span_top">{{ '￥' + item.cprice }}</span>
+                        <span class="lable">{{ '￥' + item.oprice }}</span>
                     </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-             <li>
-                <a href="" class="first"><img src="https://goods6.juancdn.com/bao/160805/b/8/57a3e441151ad1c77c8b45ae_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt=""></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-             <li>
-                <a href="" class="first"><img src="https://goods6.juancdn.com/bao/160805/b/8/57a3e441151ad1c77c8b45ae_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt=""></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods6.juancdn.com/goods/170924/a/3/59c70ff68150a1363502696e_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt=""></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-             <li>
-                <a href="" class="first"><img src="https://goods6.juancdn.com/goods/170924/a/3/59c70ff68150a1363502696e_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt=""></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods4.juancdn.com/bao/170822/7/3/599b6504a9fcf83f71345fe7_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg" alt=""></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods4.juancdn.com/bao/170822/7/3/599b6504a9fcf83f71345fe7_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg"></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-             <li>
-                <a href="" class="first"><img src="https://goods8.juancdn.com/goods/170830/e/c/59a64b26a9fcf824957456d2_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg"></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods8.juancdn.com/goods/170830/e/c/59a64b26a9fcf824957456d2_800x800.jpg?imageMogr2/thumbnail/310x310!/quality/88!/format/jpg"></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods1.juancdn.com/goods/170908/1/7/59b24b36a9fcf88c005a5007_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=webp"></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
-                </a>
-            </li>
-            <li>
-                <a href="" class="first"><img src="https://goods1.juancdn.com/goods/170908/1/7/59b24b36a9fcf88c005a5007_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=webp"></a>
-                <a href="" class="last">
-                    <div class="list_price">
-                        <span class="span_top">满2件减6元</span>
-                        <span class="span_bottom">上新</span>
-                    </div>
-                    <h3 class="short">苏菲家女装休闲套装上新专场</h3>
+                    <!-- 上新数据 -->
+                     <span class="span_bottom">{{ item.residue }}</span>
+                     <!-- 如果有item.coupon 就继续执行item.coupon.abName 否则的话就执行item.title -->
+                    <h3 class="short" >{{ item.coupon &&  item.coupon.abName || item.title  }}</h3>
+
                 </a>
             </li>
         </ul>
@@ -190,13 +90,31 @@
     
 <script>
 export default {
-  name: "component_name",
-  data () {
-    return {
-        
-    };
-  }
-}
+    name: "component_name",
+    data () {
+        return {
+            url:'../../static/data.json',
+            url2:'https://shop.juanpi.com/zxg?key=zuixinzhekou&type=1&zhouyi_ids=p8_c4_l1_51_1064_18_5_128&machining=gsortzxg&page=1&rows=10&dtype=JSONP&price_range=&cat_threeids=&cm=1&cm_channel=1&callback=gsort_callback',
+            List:[],
+            List2:[],
+        };
+    },
+    created(){
+            this.$http.get(this.url).then(res=>{
+                console.log(res);
+                this.List = res.data.menu_list[0].subtab;
+            },err=>{
+                console.log('kkkkk');
+            });
+            this.$http.jsonp(this.url2).then(res=>{
+                console.log(res);
+                this.List2 = res.data.list;
+                console.log(res.data.list);
+            },err=>{
+                console.log('123');
+            });
+        }
+    }
 </script>
     
 <style lang="css" scoped>
@@ -316,6 +234,26 @@ export default {
     float: left;
     width: 8rem;
     height: 9.7rem;
+    position: relative;
+}
+.style1_left .countTime{
+    position: absolute;
+    left: .42667rem;
+    z-index: 9;
+    top: 2.048rem;
+}
+.style1_left .countTime p{
+    height: .768rem;
+    line-height: .768rem;
+    text-align: center;
+    font-size: 0.512rem;
+}
+.style1_left .countTime p span{
+    display: inline-block;
+    width: 0.768rem;
+    height: 0.768rem;
+    background:#333;
+    color: #fff;
 }
 .style1_left img{
     width: 100%;
@@ -413,9 +351,16 @@ export default {
     font-size:0.6rem;
     text-align: right;
     right: 0.2rem;
-    bottom: -0.6rem;
-    line-height: 1.1;
-    
+    /* bottom: -0.6rem; */
+    line-height: 1.1; 
+}
+.lable{
+     font-size:0.55rem;
+     color: #bbb;
+     position: absolute;
+     top: 0.4rem;
+     left: 1.7rem;
+     text-decoration: line-through;
 }
 .short{
     font-size: 0.6rem;

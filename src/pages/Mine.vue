@@ -1,6 +1,6 @@
 <template>
     <div>
-       <header class="header">
+       <!-- <header class="header">
            <div class="userCenter">
                <a href="" class="a_img"><img src="../../img/0.jpg" alt=""></a>
                <span class="myself">个人中心</span>
@@ -10,7 +10,10 @@
                <i></i>
                <a href="">登录</a>
            </div>
-       </header>
+       </header> -->
+       <header></header>
+       <router-view></router-view>
+
         <a href="" class="my_ding">
             <span>我的订单</span>
             <span class="fr">今日订单</span>
@@ -55,8 +58,12 @@
 </template>
     
 <script>
+import header from '../components/User'
 export default {
   name: "component_name",
+  components:{
+      header
+  },
   data () {
     return {
         
