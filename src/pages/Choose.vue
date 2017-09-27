@@ -122,11 +122,6 @@ export default {
 </script>
     
 <style lang="css" scoped>
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
   html{
     font-size: 40px;
   }
@@ -144,6 +139,7 @@ export default {
     top: 0;
     left: 0;
     z-index: 9999;
+    background: #fff;
     border-bottom: .04267rem solid #ebebeb
   }
   .header div{
@@ -174,6 +170,7 @@ export default {
     height: 2.125rem;
     overflow: hidden;
     text-decoration: none;
+    float: left;
   }
   .search img{
     height: 2.125rem;
@@ -197,6 +194,7 @@ export default {
   }
   .goods-list a img{
     float: left;
+    display: inline-block;
   }
   .sale-today{
     width: 100%;
