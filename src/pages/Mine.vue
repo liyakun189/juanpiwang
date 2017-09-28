@@ -1,19 +1,18 @@
 <template>
     <div>
-       <!-- <header class="header">
+       <header class="header">
            <div class="userCenter">
-               <a href="" class="a_img"><img src="../../img/0.jpg" alt=""></a>
+               <router-link to='/Home'>
+                    <a href="" class="a_img"><img src="../../img/0.jpg" alt=""></a>
+               </router-link>
                <span class="myself">个人中心</span>
            </div>
            <div class="userLogin">
-               <a href="">注册</a>
+              <router-link to="/Reg"><a href="">注册</a></router-link>
                <i></i>
-               <a href="">登录</a>
+               <router-link to="/Login"><a href="">登录</a></router-link>
            </div>
-       </header> -->
-       <header></header>
-       <router-view></router-view>
-
+       </header>
         <a href="" class="my_ding">
             <span>我的订单</span>
             <span class="fr">今日订单</span>
@@ -61,9 +60,7 @@
 import header from '../components/User'
 export default {
   name: "component_name",
-  components:{
-      header
-  },
+ 
   data () {
     return {
         

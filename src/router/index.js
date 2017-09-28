@@ -12,12 +12,17 @@ import resource from 'vue-resource'
 // 全局配置一下
 Vue.use(resource);
 
-// 分别导入5个组件
+// 分别导入底部5个组件
 import Home from '../pages/Home'
 import Choose from '../pages/Choose'
 import Shop from '../pages/Shop'
 import Car from '../pages/Car'
 import Mine from '../pages/Mine'
+
+//导入登录组件
+import Login from '../pages/Login'
+//导入注册组件
+import Reg from '../pages/Reg'
 
 // 配置路由规则
 const routes = [
@@ -26,7 +31,9 @@ const routes = [
     { path: '/choose', component: Choose },
     { path: '/shop', component: Shop },
     { path: '/car', component: Car},
-    {path:'/mine',component:Mine}
+    {path:'/mine',component:Mine},
+    {path:'/login',component:Login},
+    {path:'/reg',component:Reg}
     ]
 
 // 创建路由实例

@@ -12,7 +12,7 @@
                 <label for="">搜索商品</label>
             </a>
         </div>
-        <span class="user"><a href=""><img src="../../img/user.jpg" alt=""></a></span>
+        <span class="user"><a href="/sort"><img src="../../img/user.jpg" alt=""></a></span>
     </div>
     <nav class="nav">
          <a href="" v-for='(item,inex) in List' :key='item.id'>{{ item.title }}</a>
@@ -140,6 +140,7 @@ export default {
     width: 100%;
     overflow: inherit;
     border-bottom: 1px solid #ebebeb;
+    position: relative;
 }
 .header .search{
     position: absolute;
@@ -180,6 +181,10 @@ export default {
     float: right;
     width: 1rem;
     height: 1.2rem;
+    position: relative;
+    right: 0;
+    bottom: auto;
+    z-index: 99;
 }
 .user img{
     display: inline-block;
