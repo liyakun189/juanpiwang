@@ -1,6 +1,8 @@
 <template>
   <div >
       <div class="main">
+		  <!-- <router-link to="/shop/product"></router-link>
+		  <router-view></router-view> -->
 		<div class="app">
 			<header id="head">
 				<span id="t-index">全球购</span>
@@ -33,8 +35,9 @@
 							<div class="yinliu-list">
 								<!-- 横排的商品列表里面的每一件商品的整体 -->
 								<div class="yinliu-good">
+							
 									<!-- 每件小商品的图片 -->
-									<a href="#" class="good-pic">
+									<a href="/product" class="good-pic">
 										<img src="https://goods5.juancdn.com/bao/170224/9/3/58afff9c151ad1c4598b458c_800x800.jpg?iopcmd=thumbnail&type=11&height=310&width=310%7Ciopcmd=convert&Q=88&dst=jpg">
 									</a>
 									<!-- 每件小商品的描述 -->
@@ -47,6 +50,7 @@
 										<!-- 小商品的名称 -->
 										<div class="good-name">五色花瓣雕刻腮红 5#</div>
 									</a>
+
 								</div>
 								<div class="yinliu-good">
 									<!-- 每件小商品的图片 -->
@@ -620,7 +624,7 @@ export default {
 }
 #head{
 	height: 1.76rem;
-	border-bottom: .12px solid #dedede;
+	border-bottom: .03rem solid #dedede;
 }
 #head #t-index{
 	display: block;
@@ -629,7 +633,7 @@ export default {
 	text-align: center;
 	cursor: default;
 	color: #666;
-    font-size: 38px;
+    font-size: .76rem;
 }
 .goods-list{
 	border-bottom: 1.4rem solid #fff;
@@ -650,8 +654,8 @@ export default {
 /*小三角样式*/
 #goods .banner .triangle{
 	display: inline-block;
-	border: 15px solid transparent;
-	border-bottom: 15px solid #fff;
+	border: .3rem solid transparent;
+	border-bottom: .3rem solid #fff;
 	z-index: 10;
 	position: absolute;
 	bottom: 0;
@@ -678,7 +682,7 @@ export default {
 	z-index: 10;
 }
 #goods .banner .top-jiaobiao .text p{
-	font-size: 18px;
+	font-size: .38rem;
 	text-align: center;
 	height: .6rem;
 	line-height: .6rem;
@@ -722,7 +726,7 @@ export default {
 	display: block;
 	width: 3.4rem;
 	height: 3rem;
-	font-size: 24px;
+	font-size: .48rem;
 }
 .yinliu-good .good-detail .good-price{
 	margin-left: .5rem;
