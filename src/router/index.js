@@ -12,6 +12,8 @@ import Choose from '../pages/Choose'
 import Shop from '../pages/Shop'
 import Car from '../pages/Car'
 import Mine from '../pages/Mine'
+// 导入一元购模块
+import Ping from '../pages/Ping'
 
 // 配置路由规则
 const routes = [
@@ -20,7 +22,8 @@ const routes = [
     { path: '/choose', component: Choose },
     { path: '/shop', component: Shop },
     { path: '/car', component: Car},
-    {path:'/mine',component:Mine}
+    {path:'/mine',component:Mine},
+    {path:'/ping',component:Ping},    
     ]
 
 // 创建路由实例
