@@ -30,6 +30,8 @@ import Sort from '../pages/Sort'
 import SortInfo from '../pages/SortInfo'
 // 一元购页面
 import Ping from '../pages/Ping'
+//商品详情页
+import Product from '../pages/Product'
 // 配置路由规则
 const routes = [
     { path: '', component: Home },
@@ -43,7 +45,8 @@ const routes = [
     {path:'/ping',component:Ping},    
     {path:'/sort',component:Sort},
     {path:'/sortInfo',component:SortInfo},
-    {path:'/ping',component:Ping}
+    {path:'/ping',component:Ping},
+    {path:'/product',component:Product}    
 ]
 
 
