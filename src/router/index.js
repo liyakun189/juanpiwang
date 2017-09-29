@@ -18,6 +18,8 @@ import Choose from '../pages/Choose'
 import Shop from '../pages/Shop'
 import Car from '../pages/Car'
 import Mine from '../pages/Mine'
+// 导入一元购模块
+import Ping from '../pages/Ping'
 
 //导入登录组件
 import Login from '../pages/Login'
@@ -33,9 +35,14 @@ const routes = [
     { path: '/shop', component: Shop },
     { path: '/car', component: Car},
     {path:'/mine',component:Mine},
+<<<<<<< HEAD
     {path:'/login',component:Login},
     {path:'/reg',component:Reg}
 ]
+=======
+    {path:'/ping',component:Ping},    
+    ]
+>>>>>>> 0be0c478dd6c139335412815fefe9375f260a837
 
 // 创建路由实例
 const router = new VueRouter({
