@@ -12,9 +12,12 @@ import Choose from '../pages/Choose'
 import Shop from '../pages/Shop'
 import Car from '../pages/Car'
 import Mine from '../pages/Mine'
-// 导入一元购模块
-import Ping from '../pages/Ping'
 
+//分类页面.分类详细页面
+import Sort from '../components/Sort'
+import SortInfo from '../components/SortInfo'
+// 一元购页面
+import Ping from '../components/Ping'
 // 配置路由规则
 const routes = [
     { path: '', component: Home },
@@ -23,7 +26,9 @@ const routes = [
     { path: '/shop', component: Shop },
     { path: '/car', component: Car},
     {path:'/mine',component:Mine},
-    {path:'/ping',component:Ping},    
+    {path:'/sort',component:Sort},
+    {path:'/sortInfo',component:SortInfo},
+    {path:'/ping',component:Ping},
     ]
 
 // 创建路由实例

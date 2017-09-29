@@ -12,7 +12,8 @@
                 <label for="">搜索商品</label>
             </a>
         </div>
-        <span class="user"><a href=""><img src="../../img/user.jpg" alt=""></a></span>
+        <span class="user"><a href="/sort"><img src="../../img/user.jpg" alt=""></a>
+        </span>
     </div>
     <nav class="nav">
         <a href="">上新</a>
@@ -222,6 +223,9 @@ export default {
     width: 100%;
     overflow: inherit;
     border-bottom: 1px solid #ebebeb;
+
+    /* 新增样式 */
+    position: relative;
 }
 .header .search{
     position: absolute;
@@ -247,7 +251,7 @@ export default {
     line-height: 1.4rem;
     margin-top: 0.5rem;
     background-color: #f2f2f2;
-    border-radius: .17067rem;  
+    border-radius: .17067rem;
 }
 .search-input  img{
     padding: 0 0 0 0.36rem;
@@ -262,6 +266,11 @@ export default {
     float: right;
     width: 1rem;
     height: 1.2rem;
+    /*新增样式  */
+    position: absolute;
+    z-index: 999;
+    right:0;
+    bottom: auto;
 }
 .user img{
     display: inline-block;
@@ -275,7 +284,6 @@ export default {
     overflow: auto;
     overflow-y: hidden;
     margin-bottom: 0.1rem;
-    z-index: 199;
 }
 .nav a{
     line-height: 1.9rem;
