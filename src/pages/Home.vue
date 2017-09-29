@@ -33,7 +33,7 @@
     <div class="kong"></div>
     <div class="type">
         <div><a href=""><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-        <div><a href=""><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
+        <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
         <div><a href=""><img src="https://goods4.juancdn.com/jas/170828/7/1/59a3f5768150a16da3399c8f_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
         <div><a href=""><img src="https://goods1.juancdn.com/jas/170906/1/c/59af976b8150a15198156939_270x267.png?iopcmd=convert&Q=85&dst=webp" alt=""></a></div>
     </div>

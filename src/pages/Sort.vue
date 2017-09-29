@@ -4,7 +4,7 @@
          <div class="header_cnt">
           <span class="icon_box">
             <a href="#">
-              <span class="icon">
+              <span class="icon" @click="goback">
                 <img src="../../img/sort.jpg" alt="">
               </span>
             </a>
@@ -15,7 +15,7 @@
        <div class="main">
          <div class="search">
           <div class="search_box">
-            <span class="icon">
+            <span class="icon" @click="goback">
               <img src="https://jp.juancdn.com/jpwebapp_v1/images_v1/icon/search.png?ts=390cfa98cd666aa7_1506359253-1&sv=a8351a1e" alt="">
             </span>
             <input type="search" name="" id="" placeholder="搜索商品">
@@ -43,7 +43,7 @@
           <div class="list_right">
             <div class="cnt">
               <div class="goods">
-                <a href="#">
+                <a href="/sortInfo">
                   <img src="https://s2.juancdn.com/bao/170824/8/d/599e9f6ba9fcf8902a706e88_200x200.png?iopcmd=convert&dst=webp" alt="">
                   <p>秋款外套</p>
                 </a>
@@ -104,6 +104,11 @@ export default {
     return {
         
     };
+  },
+  methods:{
+    goback(){
+      history.back();
+    }
   }
 }
 </script>

@@ -14,10 +14,10 @@ import Car from '../pages/Car'
 import Mine from '../pages/Mine'
 
 //分类页面.分类详细页面
-import Sort from '../components/Sort'
-import SortInfo from '../components/SortInfo'
+import Sort from '../pages/Sort'
+import SortInfo from '../pages/SortInfo'
 // 一元购页面
-import Ping from '../components/Ping'
+import Ping from '../pages/Ping'
 // 配置路由规则
 const routes = [
     { path: '', component: Home },

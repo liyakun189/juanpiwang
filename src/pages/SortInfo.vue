@@ -3,7 +3,7 @@
       <header class="header">
          <div class="header_cnt">
           <span class="icon_box">
-            <span class="icon">
+            <span class="icon" @click="goback">
             <img src="../../img/sort.jpg" alt="">
             </span>
             <span class="tit">双肩包</span>
@@ -109,6 +109,11 @@ export default {
     return {
         
     };
+  },
+  methods:{
+    goback(){
+      history.back();
+    }
   }
 }
 </script>
@@ -193,21 +198,22 @@ export default {
     }
     .condition .list .price .icon{
       display: inline-block;
-      width: 0.4rem;
+      /* width: 0.4rem; */
+      width:0.375rem;
       height: 0.75rem;
       margin-left: 0.25rem;
-      background-size: 2.45rem;
       background: url(https://jp.juancdn.com/jpwebapp_v1/images_v1/icon/sort_sprite.png) no-repeat;
       background-position-x: 0;
+      background-size: 2.45rem;
     }
     .condition .list .screen .icon{
       display:inline-block;
-      width: 0.75rem;
+      width: 0.55rem;
       height: 0.65rem;
-      background-size: 2.45rem;
       background: url(https://jp.juancdn.com/jpwebapp_v1/images_v1/icon/sort_sprite.png) no-repeat;
       background-position-x: -46px;
       background-position-y: 0;
+      background-size: 2.45rem;
     }
     .main{
       background-color: #f9f9f9;
