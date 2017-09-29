@@ -12,12 +12,8 @@
                 <label for="">搜索商品</label>
             </a>
         </div>
-<<<<<<< HEAD
         <span class="user"><a href="/sort"><img src="../../img/user.jpg" alt=""></a></span>
-=======
-        <span class="user"><a href="/sort"><img src="../../img/user.jpg" alt=""></a>
         </span>
->>>>>>> lyk/juanpiwang
     </div>
     <nav class="nav">
          <a href="" v-for='(item,inex) in List' :key='item.id'>{{ item.title }}</a>
@@ -27,15 +23,10 @@
     </div>
     <div class="kong"></div>
     <div class="type">
-<<<<<<< HEAD
-        <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-        <div><a href=""><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-=======
         <div><a href=""><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
         <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
->>>>>>> lyk/juanpiwang
-        <div><a href=""><img src="https://goods4.juancdn.com/jas/170828/7/1/59a3f5768150a16da3399c8f_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-        <div><a href=""><img src="https://goods1.juancdn.com/jas/170906/1/c/59af976b8150a15198156939_270x267.png?iopcmd=convert&Q=85&dst=webp" alt=""></a></div>
+        <div><a href=""><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
+        <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
     </div>
     <div class="kong"></div>
     <div class="style1">
@@ -150,12 +141,6 @@ export default {
     width: 100%;
     overflow: inherit;
     border-bottom: 1px solid #ebebeb;
-<<<<<<< HEAD
-=======
-
-    /* 新增样式 */
->>>>>>> lyk/juanpiwang
-    position: relative;
 }
 .header .search{
     position: absolute;
@@ -196,18 +181,10 @@ export default {
     float: right;
     width: 1rem;
     height: 1.2rem;
-<<<<<<< HEAD
     position: relative;
     right: 0;
     bottom: auto;
     z-index: 99;
-=======
-    /*新增样式  */
-    position: absolute;
-    z-index: 999;
-    right:0;
-    bottom: auto;
->>>>>>> lyk/juanpiwang
 }
 .user img{
     display: inline-block;
