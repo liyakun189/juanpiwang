@@ -18,15 +18,21 @@ import Choose from '../pages/Choose'
 import Shop from '../pages/Shop'
 import Car from '../pages/Car'
 import Mine from '../pages/Mine'
-// 导入一元购模块
-import Ping from '../pages/Ping'
 
+<<<<<<< HEAD
 //导入登录组件
 import Login from '../pages/Login'
 //导入注册组件
 import Reg from '../pages/Reg'
 
 
+=======
+//分类页面.分类详细页面
+import Sort from '../pages/Sort'
+import SortInfo from '../pages/SortInfo'
+// 一元购页面
+import Ping from '../pages/Ping'
+>>>>>>> lyk/juanpiwang
 // 配置路由规则
 const routes = [
     { path: '', component: Home },
@@ -36,11 +42,17 @@ const routes = [
     { path: '/car', component: Car},
     {path:'/mine',component:Mine},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {path:'/login',component:Login},
     {path:'/reg',component:Reg}
 ]
 =======
     {path:'/ping',component:Ping},    
+=======
+    {path:'/sort',component:Sort},
+    {path:'/sortInfo',component:SortInfo},
+    {path:'/ping',component:Ping},
+>>>>>>> lyk/juanpiwang
     ]
 >>>>>>> 0be0c478dd6c139335412815fefe9375f260a837
 
