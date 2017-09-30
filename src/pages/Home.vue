@@ -13,11 +13,11 @@
             </a>
         </div>
         <span class="user"><a href="/sort"><img src="../../img/user.jpg" alt=""></a></span>
+        </span>
     </div>
     <nav class="nav">
-        <a href="">上新</a>
+        <!-- <a href="">上新</a>
         <router-link to='/Womancloth'>女装</router-link>
-        <!-- <a href="">女装</a> -->
         <a href="">鞋包</a>
         <a href="">母婴</a>
         <a href="">数码</a>
@@ -25,7 +25,8 @@
         <a href="">男士</a>
         <a href="">美妆</a>
         <a href="">美食</a>
-        <a href="">精品配饰</a>
+        <a href="">精品配饰</a> -->
+        <div @click="cloth(index)" v-for='(item,index) in List' :key='item.id'><a >{{ item.title }}</a></div>
          <!-- <a href="" v-for='(item,inex) in List' :key='item.id'>{{ item.title }}</a> -->
     </nav>
     <div class="banner">
@@ -33,10 +34,10 @@
     </div>
     <div class="kong"></div>
     <div class="type">
-        <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-        <div><a href=""><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-        <div><a href=""><img src="https://goods4.juancdn.com/jas/170828/7/1/59a3f5768150a16da3399c8f_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
-        <div><a href=""><img src="https://goods1.juancdn.com/jas/170906/1/c/59af976b8150a15198156939_270x267.png?iopcmd=convert&Q=85&dst=webp" alt=""></a></div>
+        <div><a href=""><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
+        <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
+        <div><a href=""><img src="https://goods8.juancdn.com/jas/170828/e/7/59a3f55e8150a1637e478d48_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
+        <div><a href="/ping"><img src="https://goods8.juancdn.com/jas/170809/e/8/598a7504a9fcf866ab51bcfe_270x267.png?imageMogr2/quality/85!/format/png" alt=""></a></div>
     </div>
     <div class="kong"></div>
     <div class="style1">
@@ -104,19 +105,19 @@ export default {
     name: "component_name",
     data () {
         return {
-            // url:'../../static/data.json',
+            url:'../../static/nav.json',
             url2:'https://shop.juanpi.com/zxg?key=zuixinzhekou&type=1&zhouyi_ids=p8_c4_l1_51_1064_18_5_128&machining=gsortzxg&page=1&rows=10&dtype=JSONP&price_range=&cat_threeids=&cm=1&cm_channel=1&callback=gsort_callback',
             List:[],
             List2:[],
         };
     },
     created(){
-            // this.$http.get(this.url).then(res=>{
-            //     console.log(res);
-            //     this.List = res.data.menu_list[0].subtab;
-            // },err=>{
-            //     console.log('kkkkk');
-            // });
+            this.$http.get(this.url).then(res=>{
+                console.log(res);
+                this.List = res.data.menu_list[0].subtab;
+            },err=>{
+                console.log('kkkkk');
+            });
             this.$http.jsonp(this.url2).then(res=>{
                 console.log(res);
                 this.List2 = res.data.list;
@@ -124,7 +125,32 @@ export default {
             },err=>{
                 console.log('123');
             });
+        },
+        methods : {
+            cloth(index){
+                this.$router.push("/womancloth/" + index);
+            }
         }
+    //     methods: {
+    //     showPage(goods_url,top_url) {
+    //       console.log(goods_url);
+    //       //图片列表数据
+    //       this.$http.jsonp(goods_url).then( res => {
+    //         this.List2 = res.data.list;
+    //       }, err => {
+    //         console.log(err);
+    //       });
+    //       //上边图片列表数据
+    //       this.$http.jsonp(top_url).then( res =>{
+    //         this.nav1 = res.data.module_ads.multi_block[0].data[0].child;
+    //         this.nav2 = res.data.module_ads.multi_block[1].data[0].child;
+    //         this.nav3 = res.data.module_ads.multi_block[2].data[0].child;
+    //         // console.log(this.List3);
+    //       },err=>{
+    //         console.log('error');
+    //       })
+    //     }
+    //   }
     }
 </script>
     
@@ -151,7 +177,6 @@ export default {
     width: 100%;
     overflow: inherit;
     border-bottom: 1px solid #ebebeb;
-    position: relative;
 }
 .header .search{
     position: absolute;
@@ -177,7 +202,7 @@ export default {
     line-height: 1.4rem;
     margin-top: 0.5rem;
     background-color: #f2f2f2;
-    border-radius: .17067rem;  
+    border-radius: .17067rem;
 }
 .search-input  img{
     padding: 0 0 0 0.36rem;
@@ -203,13 +228,13 @@ export default {
 }
 .nav{
     height: 1.7rem;
+    display: flex;
     line-height: 1.7rem;
     /* position: static; */
     white-space: nowrap;
     overflow: auto;
     overflow-y: hidden;
     margin-bottom: 0.1rem;
-    z-index: 199;
 }
 .nav a{
     line-height: 1.9rem;

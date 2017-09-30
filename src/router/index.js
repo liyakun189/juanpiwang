@@ -27,6 +27,13 @@ import Reg from '../pages/Reg'
 //导入导航组件
 import Womancloth from '../nav/Womancloth'
 
+//分类页面.分类详细页面
+import Sort from '../pages/Sort'
+import SortInfo from '../pages/SortInfo'
+// 一元购页面
+import Ping from '../pages/Ping'
+//商品详情页
+import Product from '../pages/Product'
 // 配置路由规则
 const routes = [
     { path: '', component: Home },
@@ -37,8 +44,14 @@ const routes = [
     {path:'/mine',component:Mine},
     {path:'/login',component:Login},
     {path:'/reg',component:Reg},
-    {path:'/womancloth',component:Womancloth}
+    {path:'/womancloth/:id',component:Womancloth},
+    {path:'/ping',component:Ping},  
+    {path:'/sort',component:Sort},
+    {path:'/sortInfo',component:SortInfo},
+    {path:'/ping',component:Ping},
+    {path:'/product',component:Product}    
 ]
+
 
 // 创建路由实例
 const router = new VueRouter({
