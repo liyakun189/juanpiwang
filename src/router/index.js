@@ -24,6 +24,8 @@ import Login from '../pages/Login'
 //导入注册组件
 import Reg from '../pages/Reg'
 
+//导入导航组件
+import Womancloth from '../nav/Womancloth'
 
 // 配置路由规则
 const routes = [
@@ -34,7 +36,8 @@ const routes = [
     { path: '/car', component: Car},
     {path:'/mine',component:Mine},
     {path:'/login',component:Login},
-    {path:'/reg',component:Reg}
+    {path:'/reg',component:Reg},
+    {path:'/womancloth',component:Womancloth}
 ]
 
 // 创建路由实例

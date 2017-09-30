@@ -15,7 +15,18 @@
         <span class="user"><a href="/sort"><img src="../../img/user.jpg" alt=""></a></span>
     </div>
     <nav class="nav">
-         <a href="" v-for='(item,inex) in List' :key='item.id'>{{ item.title }}</a>
+        <a href="">上新</a>
+        <router-link to='/Womancloth'>女装</router-link>
+        <!-- <a href="">女装</a> -->
+        <a href="">鞋包</a>
+        <a href="">母婴</a>
+        <a href="">数码</a>
+        <a href="">居家</a>
+        <a href="">男士</a>
+        <a href="">美妆</a>
+        <a href="">美食</a>
+        <a href="">精品配饰</a>
+         <!-- <a href="" v-for='(item,inex) in List' :key='item.id'>{{ item.title }}</a> -->
     </nav>
     <div class="banner">
         <img src='https://goods2.juancdn.com/jas/170818/3/d/5996dbed8150a12f501eecb1_1080x418.png?imageMogr2/thumbnail/750x290!/quality/80!/format/png'>
@@ -93,19 +104,19 @@ export default {
     name: "component_name",
     data () {
         return {
-            url:'../../static/data.json',
+            // url:'../../static/data.json',
             url2:'https://shop.juanpi.com/zxg?key=zuixinzhekou&type=1&zhouyi_ids=p8_c4_l1_51_1064_18_5_128&machining=gsortzxg&page=1&rows=10&dtype=JSONP&price_range=&cat_threeids=&cm=1&cm_channel=1&callback=gsort_callback',
             List:[],
             List2:[],
         };
     },
     created(){
-            this.$http.get(this.url).then(res=>{
-                console.log(res);
-                this.List = res.data.menu_list[0].subtab;
-            },err=>{
-                console.log('kkkkk');
-            });
+            // this.$http.get(this.url).then(res=>{
+            //     console.log(res);
+            //     this.List = res.data.menu_list[0].subtab;
+            // },err=>{
+            //     console.log('kkkkk');
+            // });
             this.$http.jsonp(this.url2).then(res=>{
                 console.log(res);
                 this.List2 = res.data.list;
@@ -364,7 +375,7 @@ export default {
      color: #bbb;
      position: absolute;
      top: 0.4rem;
-     left: 1.7rem;
+     left: 2.5rem;
      text-decoration: line-through;
 }
 .short{
