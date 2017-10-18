@@ -12,10 +12,6 @@
         <div class="cloth_top">
           <ul>
             <li v-for='(item,index) in nav1' :key="item.id"><img :src='item.pic'></li>
-            <!-- <li><img src="https://goods8.juancdn.com/jas/170818/f/0/5996370c8150a10af70b7843_200x212.png?imageMogr2/quality/85!/format/png" alt=""></li>
-            <li><img src="https://goods8.juancdn.com/jas/170818/f/0/5996370c8150a10af70b7843_200x212.png?imageMogr2/quality/85!/format/png" alt=""></li>
-            <li><img src="https://goods8.juancdn.com/jas/170818/f/0/5996370c8150a10af70b7843_200x212.png?imageMogr2/quality/85!/format/png" alt=""></li>
-            <li><img src="https://goods8.juancdn.com/jas/170818/f/0/5996370c8150a10af70b7843_200x212.png?imageMogr2/quality/85!/format/png" alt=""></li> -->
           </ul>
         </div>
         <div class="cloth_top">
@@ -68,14 +64,31 @@ export default {
         nav3:[]
     };
   },
+  props:['index'],
    created(){
+            
             this.$http.get(this.url).then(res=>{
-                console.log(res);
+               
                 this.List = res.data.menu_list[0].subtab;
+                this.$http.jsonp(this.List[this.index].goods_url).then( res => {
+                this.List2 = res.data.list;
+              }, err => {
+                console.log(err);
+              });
+
+              //上边图片列表数据
+              this.$http.jsonp(this.List[this.index].top_url).then( res =>{
+                 console.log(res.data.module_ads.multi_block[0].data[0]);
+                this.nav1 = res.data.module_ads.multi_block[0].data[0].child;
+                this.nav2 = res.data.module_ads.multi_block[1].data[0].child;
+                this.nav3 = res.data.module_ads.multi_block[2].data[0].child;
+                // console.log(this.List3);
+              },err=>{
+                console.log('error');
+              })
             },err=>{
                 console.log('kkkkk');
             });
-
             //  this.$http.jsonp(this.url2).then(res=>{
             //     console.log(res);
             //     this.List2 = res.data.list;
@@ -83,6 +96,8 @@ export default {
             // },err=>{
             //     console.log('123');
             // });
+           
+          
         },
     methods: {
         showPage(goods_url,top_url) {

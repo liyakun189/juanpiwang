@@ -1,5 +1,5 @@
 <template>
-<div>
+<div :urls="111">
     <div class="go-app">
         <a href="">
             <img src="https://jp.juancdn.com/jpwebapp/images/go_load_new.png?20161115">
@@ -109,28 +109,33 @@ export default {
             url2:'https://shop.juanpi.com/zxg?key=zuixinzhekou&type=1&zhouyi_ids=p8_c4_l1_51_1064_18_5_128&machining=gsortzxg&page=1&rows=10&dtype=JSONP&price_range=&cat_threeids=&cm=1&cm_channel=1&callback=gsort_callback',
             List:[],
             List2:[],
+
         };
     },
     created(){
-            this.$http.get(this.url).then(res=>{
-                console.log(res);
-                this.List = res.data.menu_list[0].subtab;
-            },err=>{
-                console.log('kkkkk');
-            });
-            this.$http.jsonp(this.url2).then(res=>{
-                console.log(res);
-                this.List2 = res.data.list;
-                console.log(res.data.list);
-            },err=>{
-                console.log('123');
-            });
-        },
-        methods : {
-            cloth(index){
-                this.$router.push("/womancloth/" + index);
-            }
+        this.$http.get(this.url).then(res=>{
+            // console.log(res);
+            this.List = res.data.menu_list[0].subtab;
+        },err=>{
+            console.log('kkkkk');
+        });
+        this.$http.jsonp(this.url2).then(res=>{
+            // console.log(res);
+            this.List2 = res.data.list;
+            console.log(res.data.list);
+        },err=>{
+            console.log('123');
+        });
+    },
+    methods : {
+        cloth(index){
+            this.$router.push("/womancloth/" + index);
+            this.$emit('changeurl', index)
         }
+    },
+    mounted(){
+        // console.log(urls)
+    }
     //     methods: {
     //     showPage(goods_url,top_url) {
     //       console.log(goods_url);
